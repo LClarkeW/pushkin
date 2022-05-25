@@ -1,0 +1,16 @@
+version: '2'
+services:
+  noisy_channel_worker:
+    image: 'dockdockgolinc/noisy_channel_worker:latest'
+    mem_limit: 128m
+    environment:
+      AMQP_ADDRESS: 'amqp://pushkin:0.2745239124305576@localhost:5672'
+      DB_USER: postgres
+      DB_NAME: pushkinMain
+      DB_PASS: '0.17171311279291612'
+      DB_URL: pushkinmain.cas110h17hcn.us-east-1.rds.amazonaws.com
+      TRANSACTION_DATABASE_URL: >-
+        postgres://postgres:0.06786673787282638@pushkintransaction.cas110h17hcn.us-east-1.rds.amazonaws.com:/5432/pushkinTransaction
+    command:
+      - bash
+      - start.sh

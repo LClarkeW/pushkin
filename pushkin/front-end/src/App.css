@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'slabo';
+  src: local('slabo'),
+  url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap') format('truetype');
+}
+
+body {
+  font-family: 'slabo';
+  font-size: large;
+}
+  
+/* Fade-in and Fade-out slideshow */
+#distractor-stimulus {
+    border:10px solid white;
+    opacity:1;
+    visibility: visible;
+}
+
+#distractor-stimulus.fadeOut {
+    border:10px solid white;
+    opacity:0;
+    visibility: hidden;
+}
+
+#distractor-stimulus.green {
+    border:10px solid gray;
+}

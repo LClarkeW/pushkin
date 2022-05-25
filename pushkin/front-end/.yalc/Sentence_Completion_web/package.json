@@ -1,0 +1,28 @@
+{
+  "name": "Sentence_Completion_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build; cp -r src/assets build/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jspsych/plugin-html-button-response": "^1.1.1",
+    "@jspsych/plugin-html-keyboard-response": "^1.1.0",
+    "@jspsych/plugin-survey-html-form": "^1.0.0",
+    "build-if-changed": "^1.5.5",
+    "js-yaml": "^3.14.0",
+    "jspsych": "^7.2.1",
+    "pushkin-client": "^1.5.0",
+    "pushkin-jspsych": "^1.0.1",
+    "react": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "yalcSig": "4c9b7d6e0987f5d1b791040264e25f90"
+}

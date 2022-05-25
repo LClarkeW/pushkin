@@ -1,0 +1,41 @@
+experimentsDir: experiments
+coreDir: pushkin
+DockerHubID: dockdockgolinc
+databases:
+  localtestdb:
+    user: postgres
+    pass: example
+    url: test_db
+    name: test_db
+    host: localhost
+info:
+  rootDomain: linclabucmerced.com
+  whoAmI: Citizen Science Website
+  hashtags: 'science, learn'
+  email: me@mydomain.com
+  shortName: CSW
+  projName: pushkin
+  awsName: pushkin0fe5a546-6177-46aa-a314-36b3c7018e92
+addons:
+  useForum: false
+  useAuth: true
+  authDomain: <YOUR_AUTH0_DOMAIN>
+  authClientID: <YOUR_AUTH0_CLIENT_ID>
+salt: abc123
+fc:
+  popup: false
+productionDBs:
+  Main:
+    type: Main
+    name: pushkinMain
+    host: pushkinmain.cas110h17hcn.us-east-1.rds.amazonaws.com
+    user: postgres
+    pass: '0.17171311279291612'
+    port: 5432
+  Transaction:
+    type: Transaction
+    name: pushkinTransaction
+    host: pushkintransaction.cas110h17hcn.us-east-1.rds.amazonaws.com
+    user: postgres
+    pass: '0.06786673787282638'
+    port: 5432

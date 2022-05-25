@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "packages": {
+    "lex_api": {
+      "signature": "6797d99adf7c3ad3319230f7dc54ab6a",
+      "file": true
+    },
+    "Noisy_Channel_api": {
+      "signature": "8f82ec899081dea59417c4a86deacddb",
+      "file": true
+    },
+    "Sentence_Completion_api": {
+      "signature": "f3c1df28fa67e57f059bf7ceea1270c2",
+      "file": true
+    }
+  }
+}

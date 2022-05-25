@@ -1,0 +1,14 @@
+version: '2'
+services:
+  message-queue:
+    image: 'rabbitmq:3.7-management'
+    mem_limit: 512m
+    environment:
+      RABBITMQ_DEFAULT_USER: pushkin
+      RABBITMQ_DEFAULT_PASS: '0.2745239124305576'
+      RABBITMQ_ERLANG_COOKIE: 182d14f2-d3b2-4c26-a392-52271c77312a
+    ports:
+      - '5672:5672/tcp'
+      - '4369:4369/tcp'
+      - '15672:15672/tcp'
+      - '25672:25672/tcp'

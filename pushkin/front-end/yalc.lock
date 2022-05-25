@@ -1,0 +1,18 @@
+{
+  "version": "v1",
+  "packages": {
+    "Noisy_Channel_web": {
+      "signature": "55582b9da1c882eb1ac13bb29ec81d78",
+      "file": true
+    },
+    "Sentence_Completion_web": {
+      "signature": "4c9b7d6e0987f5d1b791040264e25f90",
+      "file": true
+    },
+    "lex_web": {
+      "version": "1.0.0",
+      "signature": "c82da5667c4e78b76b51e18916c36062",
+      "file": true
+    }
+  }
+}
